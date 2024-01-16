@@ -1,0 +1,168 @@
+/*===== Google fonts =====*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, img, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+footer, header, section {
+    display: block;
+}
+
+:root {
+  --primary-color: #2980B9;
+  --secondary-color: #F39C12;
+  --white: #ffffff;
+  --footer-background-color: #232F3E;
+  --body-font: 'Lato', sans-serif;
+  --text-color: #212121;
+  --regular-font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--white);
+  font-family: var(--body-font);
+  font-size: var(--regular-font-size);
+  font-weight: 400;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.not-mobile {
+  display: none;
+}
+
+.header {
+  padding: 30px 15px;
+  background-color: var(--primary-color);
+}
+
+.icon-app-name {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.125rem;
+}
+
+.logo {
+  height: 25px;
+}
+
+.app-name {
+  color: var(--white);
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.header p,
+.header h1 {
+  color: var(--white);
+  /* text-shadow: 1px 1px 4px #212121; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+.get-notified-form {
+  margin-top: 20px;
+  max-width: 315px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  border: 1px solid transparent;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  color: var(--text-color);
+  outline: none;
+  background-color: var(--white);
+  width: 62%;
+}
+
+input:focus {
+  border-color: var(--secondary-color);
+}
+
+input::placeholder {
+  color: var(--text-color);
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  width: 35%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+button:active {
+  
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 315px;
+  margin: 30px auto 0;
+}
+
+img {
+  height: 300px;
+}
+
+.year-smile-img {
+  margin-top: 30px;
+}
+
+.section-img-group {
+  display: flex;
+  justify-content: center;
+}
+
+.section-img-group .first-img {
+  z-index: 2;
+  position: relative;
+}
+
+.section-img-group .second-img {
+  margin-left: -60px;
+  z-index: 1;
+  margin-top: 40px;
+}
