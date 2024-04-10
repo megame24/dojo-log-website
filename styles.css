@@ -521,3 +521,14 @@ a {
   color: #ffffff;
   margin-top: 10px;
 }
+
+.coming-soon {
+  font-size: 2rem;
+  margin-top: 50px;
+  color: #fffdbc;
+  text-shadow: 1px 2px 4px #515151;
+}
+
+.center-text {
+  text-align: center;
+}
