@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Dojolog - The ultimate productivity and consistency app that helps you track progress, and achieve your goals. Available for download on iOS and Android."
+      content="Dojologs - The ultimate productivity and consistency app that helps you track progress, and achieve your goals. Available for download on iOS and Android."
     />
     <meta
       name="keywords"
       content="productivity app, consistency app, log keeping app, progress tracking, time tracking, goal setting"
     />
-    <title>Dojolog</title>
+    <title>Dojologs</title>
     <link rel="canonical" href="https://www.dojologs.com/" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <!-- Social Media Meta Tags -->
-    <meta property="og:title" content="Dojolog" />
+    <meta property="og:title" content="Dojologs" />
     <meta
       property="og:description"
       content="Set goals, track your progress and achieve your goals."
     />
-    <!-- <meta property="og:image" content="https://www.yourwebsite.com/images/social-share.png" />
-<meta property="og:url" content="https://www.yourwebsite.com/" /> -->
+    <!-- <meta property="og:image" content="https://www.yourwebsite.com/images/social-share.png" /> -->
+    <meta property="og:url" content="https://www.dojologs.com/" />
     <meta property="og:type" content="website" />
     <!-- <meta name="twitter:card" content="summary_large_image" /> -->
     <!-- Add additional tags for Open Graph and Twitter Card as needed -->
@@ -29,39 +29,97 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="header container">
-      <div class="icon-app-name">
-        <img class="logo" src="img/logo.png" alt="">
-        <span class="app-name">Dojologs</span>
-      </div>
-      <h1>Dream big.<br class="mobile-only" /> Act consistently.</h1>
-      <p>Introducing Dojologs, your consistency companion app for achieving your goals. Our unique progress visualization keeps you motivated and focused on your goals every day.</p>
-      <form action="#">
-        <div class="get-notified-form">
-          <input required type="email" placeholder="Email address" >
-          <button>Get notified</button>
+    <header class="header">
+      <div class="container">
+        <div class="icon-app-name">
+          <img class="logo" src="img/logo.png" alt="">
+          <span class="app-name">Dojologs</span>
         </div>
-      </form>
-      <div class="hero-container">
-        <img class="year-weight-img" src="img/dojolog_year_weight.png">
-        <img class="year-smile-img" src="img/dojolog_year_smile.png">
+        <div class="header-items">
+          <div class="header-item-1">
+            <h1>Dream big.<br class="mobile-only" /> Act consistently.</h1>
+            <p>Introducing Dojologs, your consistency companion app for achieving your goals. Our unique progress visualization keeps you motivated and focused on your goals every day.</p>
+            <form action="#" class="get-notified">
+              <div class="get-notified-form get-notified-form-header">
+                <input required type="email" placeholder="Email address" >
+                <button>Get notified</button>
+              </div>
+            </form>
+            <div class="success-message" style="display: none;">✅ Thank you for subscribing to get notified! 😊</div>
+            <!-- <h2>COMING SOON!</h2> -->
+          </div>
+          <div class="header-item-2 hero-container">
+            <img class="year-weight-img" src="img/dojolog_year_weight.png">
+            <img class="year-smile-img" src="img/dojolog_year_smile.png">
+          </div>
+        </div>
       </div>
     </header>
 
-    <main  class="container">
+    <main class="container">
       <section>
-        <di>
-          <h3>Set a goal</h3>
+        <div class="section-text">
+          <h2>Set a goal</h2>
           <p>Begin your journey towards success by defining your goal with precision. Set clear milestones and a specific deadline to transform your ambition into a tangible plan of action.</p>
-        </di>
+        </div>
         <div class="section-img-group">
-          <img class="set-goal-img first-img" src="img/dojolog_set_goal.png">
-          <img class="set-goal-overlay-img second-img" src="img/dojolog_set_goal_overlay.png">
+          <img class="first-img" src="img/dojolog_set_goal.png">
+          <img class="second-img" src="img/dojolog_set_goal_overlay.png">
+        </div>
+      </section>
+      <section>
+        <div class="section-text">
+          <h2>Log daily progress</h2>
+          <p>Progress towards your goal with intention and dedication, consistently applying effort to turn your aspirations into achievements.</p>
+        </div>
+        <div class="section-img-group">
+          <img class="first-img-alt" src="img/dojolog_logs_overlay.png">
+          <img class="second-img-alt" src="img/dojolog_logs.png">
+        </div>
+      </section>
+      <section>
+        <div class="section-text">
+          <h2>Achieve your goal</h2>
+          <p>Experience the reward of perseverance. Watch as your consistent efforts lead to hitting targets and culminating in the triumphant achievement of your goal.</p>
+        </div>
+        <div class="section-img-group">
+          <img class="first-img" src="img/dojolog_achieved.png">
+          <img class="second-img" src="img/dojolog_achieved_overlay.png">
         </div>
       </section>
     </main>
+    <section class="last">
+      <div>
+        <div class="last-logo-and-text">
+          <img class="logo-big" src="img/logo.png" alt="">
+          <h3>Discover Dojologs: a free, open-source app designed to turn dreams into reality and goals into achievements, all through the power of consistent effort.</h3>
+        </div>
+        <form action="#" class="get-notified">
+          <div class="get-notified-form get-notified-form-footer">
+            <input required type="email" placeholder="Email address" >
+            <button>Get notified</button>
+          </div>
+        </form>
+        <div class="success-message" style="display: none; text-align: center;">✅ Thank you for subscribing to get notified! 😊</div>
+      </div>
+      <div class="footer-img-group">
+        <img class="first-img" src="img/dojologs_rewards.png">
+        <img class="second-img" src="img/year_view.png">
+        <img class="third-img" src="img/logbooks.png">
+      </div>
+    </section>
 
     <footer>
+      <div class="footer-left">
+        <p><span class="copy-left">&copy;</span> Dojologs. All Rights Reversed</p>
+      </div>
+      <div class="footer-right">
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
