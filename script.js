@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const emailInput = this.querySelector('input[type="email"]');
       const email = emailInput.value;
 
-      fetch('http://127.0.0.1:3000/mailing-list', {
+      fetch('https://api.dojologs.com/mailing-list', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -62,12 +62,12 @@ body {
 
 .icon-app-name {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   font-size: 1.125rem;
 }
 
 .logo {
-  height: 25px;
+  height: 35px;
 }
 
 .app-name {
@@ -85,6 +85,10 @@ p {
 .header h2 {
   /* text-shadow: 1px 1px 4px #212121; */
   margin-top: 10px;
+  text-align: center;
+}
+
+.header .success-message {
   text-align: center;
 }
 
@@ -223,7 +227,7 @@ section.last > div {
 }
 
 .logo-big {
-  height: 35px;
+  height: 55px;
 }
 
 h3 {
@@ -385,7 +389,8 @@ a {
 
   .header p,
   .header h1,
-  .header h2 {
+  .header h2,
+  .header .success-message {
     /* text-shadow: 1px 1px 4px #212121; */
     text-align: left;
   }
